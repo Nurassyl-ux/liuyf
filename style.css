@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+section {
+    background-image: url(bg-pattern-desktop.svg);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 830px 610px;
+}
+.first {
+    padding: 50px 160px;
+    display: grid;
+    grid-template-rows: 160px 230px 120px 120px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.second {
+    background-image: url(hero-desktop.jpg);
+}
+h1 {
+    font-size: 55px;
+    font-weight: 300;
+    color: #cf969c;
+}
+h2 {
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+p {
+    font-size: larger;
+    color: #cf969c;
+}
+input {
+    width: 380px;
+    height: 50px;
+    border: 3px solid #c5787f;
+    border-radius: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+cite {
+    margin-left: 30px;
+    color: #cf969c;
+}
+.input {
+    position: relative;
+}
+.h {
+    position: absolute;
+    top: 20px;
+    right: 200px;
+}
+.mal {
+    position: relative;
+}
+button {
+    position: absolute;
+    right: 40px;
+    top: 3px;
+    width: 100px;
+    height: 50px;
+    background-color: #cf969c;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    
+}
